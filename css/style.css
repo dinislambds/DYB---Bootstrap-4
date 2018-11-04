@@ -6,6 +6,197 @@ body{
     margin: 0;
     padding: 0;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* Theme default colors */
+.icon-tick {
+    color: #16DE74;
+}
+.icon-cross {
+    color: #FF6D4A;
+}
+.bg-teal-dark {
+    background-color: #1c6877;
+}
+.bg-teal-darker {
+    background-color: #2b424e;
+}
+.theme-bs {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+}
+/* Header Section */
+.header-section {
+    background: -webkit-gradient(linear,left top,left bottom,from(#334d72),to(#4a6ea9));
+    background: linear-gradient(#334d72,#4a6ea9);
+    padding: 115px 0;
+}
+.header-section a {
+    background: #243640;
+}
+.header-section h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+}
+.header-section p {
+    font-size: 27px;
+    line-height: 31px;
+}
+
+/* Description Section */
+.description-section .card {
+    margin-top: -40px;
+}
+.description-section .card-body {
+    font-size: 20px;
+    line-height: 34px;
+}
+.description-section p {
+    margin-bottom: 1.5rem;
+}
+
+/* Testimonial Section */
+.testimonial-section h3 {
+    font-size: 34px;
+    line-height: 39px;
+    color: #000;
+}
+.testimonial-section p {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/* What's Inside Section */
+.wi-section h2 {
+    font-size: 54px;
+    line-height: 1;
+    color: #000;
+}
+.wi-section p {
+    font-size: 23px;
+    line-height: 38px;
+}
+
+
+/* Understanding Your Clients Section */
+.uyc-section h3 {
+    font-size: 23px;
+    line-height: 26px;
+    columns: #000;
+}
+.uyc-section p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.uyc-section p strong {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* Who's behind this course Section */
+.wbc-section {
+    background-color: #2b424e;
+}
+.wbc-section h3 {
+    font-size: 34px;
+    line-height: 39px;
+}
+.wbc-section p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.wbc-section .order-md-1 {
+    margin-top: -40px;
+}
+
+/* Right-Wrong Section */
+.rw-section h5 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+.rw-section ul li {
+    font-size: 18px;
+    line-height: 31px;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+/* What’s next Section */
+.wn-section h2 {
+    font-size: 41px;
+    line-height: 47px;
+    font-family: 'PT Sans', sans-serif;
+}
+.wn-section p,.wn-section ul li {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 1.5rem;
+}
+
+
+/*  Get Instant Access Section */
+.gia-section {
+    background-color: #243640;
+}
+.gia-section h2 {
+    font-size: 54px;
+    line-height: 62px;
+}
+.gia-section p {
+    font-size: 27px;
+    line-height: 31px;
+}
+.gia-section .card:first-child{
+    background-color: #eef1f3;
+}
+.gia-section .card:last-child{
+    background-color: #f9f9f9;
+}
+.gia-section h5 {
+    font-size: 27px;
+    line-height: 31px;
+    color: #000;
+}
+.gia-section ul li {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.gia-section a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #2b8293;
+}
+.footer-section .left-ss p {
+    font-size: 20px;
+    line-height: 23px
+}
+.footer-section .left-ss a, .footer-section .right-ss p {
+    font-size: 16px;
+    line-height: 18px
+}
+.footer-section .left-ss a {
+    padding: .5rem 1rem;
+    background-color: #2ac0dd;
+}
+.footer-section .right-ss ul li {
+    font-size: 14px;
+    line-height: 16px;
+    padding: .25rem 0;
+    margin: .75rem 0;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+.footer-section .right-ss ul li a:hover {
+    text-decoration: none;
 }
