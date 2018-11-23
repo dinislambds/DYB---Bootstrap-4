@@ -200,3 +200,65 @@ h1, h2, h3, h4, h5, h6 {
 .footer-section .right-ss ul li a:hover {
     text-decoration: none;
 }
+
+
+
+/*Free Pricing Course*/
+.fpc-right-side {
+    background-color: #243640;
+}
+.fpc-left-side h2 {
+    font-size: 54px;
+    line-height: 54px;
+    color: #000;
+}
+.fpc-left-side p, .fpc-left-side ul li {
+    font-size: 23px;
+    line-height: 34px;
+    color: #454646;
+}
+.fpc-left-side ul li i {
+    font-size: 18px;
+}
+.testimonial .card i {
+    font-size: 12px;
+    color: gold;
+} 
+.testimonial .card p {
+    font-size: 23px;
+    line-height: 28px;
+    color: #000;
+} 
+.fpc-right-side h3 {
+    color: #000;
+}
+.fpc-right-side p, .fpc-right-side form label, .fpc-right-side form select {
+    color: #000;
+    font-size: 20px;
+    line-height: 23px;
+}
+.fpc-right-side form select:focus, .fpc-right-side form input:focus {
+    box-shadow: none;
+}
+.fpc-right-side button {
+    background-color: #2b8293;
+    letter-spacing: .05em;
+    font-size: 18px;
+    padding: 13px;
+    line-height: 20px;
+}
+.fpc-right-side button:hover, .fpc-right-side button:focus, .fpc-right-side button:active {
+    background-color: #1c6877 !important;
+}
+.fpc-right-side .form-control {
+    height: auto;
+    font-size: 20px;
+    padding: 12px;
+    background-color: #eef1f3;
+    border: 1px solid #f9f9f9;
+}
+.fpc-right-side small {
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+}
