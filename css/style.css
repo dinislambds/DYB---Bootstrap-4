@@ -1,3 +1,6 @@
+body, html {
+	height: 100%;
+}
 body{
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
@@ -204,6 +207,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*Free Pricing Course*/
+.fpc-section, .fpc-section > .row {
+	height: 100%;
+}
 .fpc-right-side {
     background-color: #243640;
 }
